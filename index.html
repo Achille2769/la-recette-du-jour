@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez chaque jour une nouvelle recette facile et gourmande.">
+  <title>La Recette du Jour</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #faf7f0; color: #303b2e; }
+    header { padding: 24px 18px; text-align: center; background: #304c38; color: white; }
+    header h1 { margin: 0 0 8px; font-family: Georgia, serif; font-size: clamp(28px, 5vw, 42px); }
+    header p { margin: 0; color: #e4eadf; }
+    main { max-width: 850px; margin: 30px auto; padding: 0 18px 40px; }
+    .tag { color: #58734e; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 12px; }
+    h2 { font-family: Georgia, serif; font-size: clamp(27px, 4vw, 38px); margin: 10px 0; }
+    .intro { color: #667064; line-height: 1.6; }
+    .photo { width: 100%; height: 320px; object-fit: cover; border-radius: 18px; background: #e7e3d8; }
+    .facts { display: flex; gap: 12px; flex-wrap: wrap; margin: 18px 0 28px; }
+    .facts span { background: #e9eddf; padding: 10px 14px; border-radius: 10px; font-size: 14px; }
+    .columns { display: grid; grid-template-columns: 1fr 1.4fr; gap: 28px; }
+    h3 { font-family: Georgia, serif; font-size: 23px; }
+    li { margin-bottom: 12px; line-height: 1.55; }
+    footer { text-align: center; padding: 22px; background: #304c38; color: white; font-size: 14px; }
+    @media (max-width: 600px) { .columns { grid-template-columns: 1fr; } .photo { height: 230px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍃 La Recette du Jour</h1>
+    <p>Chaque jour, une nouvelle idée pour se régaler.</p>
+  </header>
+  <main>
+    <p class="tag">La recette à découvrir</p>
+    <h2>Pâtes crémeuses à la tomate</h2>
+    <p class="intro">Un plat simple, savoureux et facile à préparer pour un repas gourmand.</p>
+    <img class="photo" src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=85" alt="Assiette de pâtes avec des herbes fraîches">
+    <div class="facts">
+      <span>⏱️ 20 minutes</span><span>👨‍🍳 Facile</span><span>🍽️ 2 personnes</span>
+    </div>
+    <div class="columns">
+      <section>
+        <h3>🛒 Ingrédients</h3>
+        <ul>
+          <li>200 g de pâtes</li>
+          <li>200 g de tomates concassées</li>
+          <li>10 cl de crème de cuisine</li>
+          <li>1 petite gousse d'ail</li>
+          <li>1 cuillère à soupe d'huile d'olive</li>
+          <li>Sel, poivre et basilic</li>
+        </ul>
+      </section>
+      <section>
+        <h3>👩‍🍳 Préparation</h3>
+        <ol>
+          <li>Fais cuire les pâtes selon les instructions du paquet.</li>
+          <li>Dans une poêle, chauffe l'huile et fais revenir l'ail finement haché pendant une courte minute.</li>
+          <li>Ajoute les tomates, puis laisse mijoter environ 8 minutes.</li>
+          <li>Incorpore la crème, sale et poivre à ton goût.</li>
+          <li>Ajoute les pâtes égouttées, mélange et termine avec le basilic.</li>
+        </ol>
+      </section>
+    </div>
+  </main>
+  <footer>La Recette du Jour · De nouvelles idées gourmandes à découvrir.</footer>
+</body>
+</html>
